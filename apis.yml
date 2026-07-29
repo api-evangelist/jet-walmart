@@ -1,8 +1,24 @@
 aid: jet-walmart
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jet-walmart.png
 name: Jet (Walmart)
-description: 'Jet (Walmart) is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Jet (Walmart) was a US e-commerce marketplace founded by Marc Lore and backed by Bain
+  Capital Ventures, acquired by Walmart in 2016 for roughly 3.3 billion USD and subsequently wound down.
+  The jet.com domain now 302-redirects to walmart.com (confirmed 2026-07-19) and no standalone Jet
+  developer portal, API, documentation, or SDK surface exists; the brand and its commerce technology were
+  absorbed into Walmart. This profile was surfaced as a portfolio company of bain-capital-ventures and
+  added to the API Evangelist network as a stub. It is retained for lineage/graph purposes but has no
+  live public API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/jet-walmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'jet.com 302-redirects to walmart.com (probed 2026-07-19); brand absorbed into Walmart, no
+  standalone developer/API surface exists.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Commerce
+- E-commerce
+- Retail
+- Marketplace
+- Walmart
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
