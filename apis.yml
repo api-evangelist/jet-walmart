@@ -29,7 +29,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: 'jet.com 302-redirects to walmart.com (probed 2026-07-19); brand absorbed into Walmart, no
   standalone developer/API surface exists.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
