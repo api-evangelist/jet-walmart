@@ -72,3 +72,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/walmart/
+  name: Walmart
+  x-relationship: acquired
+  x-evidence: "Jet (Walmart) was a US e-commerce marketplace founded by Marc Lore and backed by Bain Capital Ventures, acquired by Walmart in 2016 for roughly 3."
